@@ -1,73 +1,41 @@
-# Contentful Gatsby Starter Blog
+## Somnium Blog Web
 
-Create a [Gatsby](http://gatsbyjs.com/) blog powered by [Contentful](https://www.contentful.com).
+### 使用方法
 
-![An article page of the starter blog](./screenshot.png "An article page of the starter blog")
+### Contentful
 
-Static sites are scalable, secure and have very little required maintenance. They come with a drawback though. Not everybody feels good editing files, building a project and uploading it somewhere. This is where Contentful comes into play.
+- 首先、点击这里的apikey选项、到了下面这个页面、新建一个apikey、然后保存记录下面的space id和delivery access id
 
-With Contentful and Gatsby you can connect your favorite static site generator with an API that provides an easy to use interface for people writing content and automate the publishing using services like [Travis CI](https://travis-ci.org/) or [Netlify](https://www.netlify.com/).
+![1](D:\Horizon\Projects\Ongoing\Somnium\.img\1.png)
 
-## Features
+![5](D:\Horizon\Projects\Ongoing\Somnium\.img\5.png)
 
-- Simple content model and structure. Easy to adjust to your needs.
-- Use the [synchronization feature](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/synchronization) of our [Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/).
-- Responsive/adaptive images via [gatsby-plugin-image](https://www.gatsbyjs.org/packages/gatsby-plugin-image/) and our [Images API](https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/synchronization/initial-synchronization-of-entries-of-a-specific-content-type).
+![6](D:\Horizon\Projects\Ongoing\Somnium\.img\6.png)
 
-## Getting started
+- 如何编辑Blog：点击这里面的任意一条、然后会跳转到对应的页面、然后编辑完记得在右上角的绿色按钮点publish（重要）
 
-See our [official Contentful getting started guide](https://www.contentful.com/developers/docs/tutorials/general/get-started/).
+![2](D:\Horizon\Projects\Ongoing\Somnium\.img\2.png)
 
-### Get the source code and install dependencies.
+![4](D:\Horizon\Projects\Ongoing\Somnium\.img\4.png)
 
-```
-$ git clone https://github.com/contentful/starter-gatsby-blog.git
-$ npm install
-```
+- 如何新建blog、这里点blogpost新建一个blog、其他两个目前没什么用、然后如果要修改首页的页面名称的话、可以修改Person这里这一条
 
-Or use Gatsby Cloud
+![3](D:\Horizon\Projects\Ongoing\Somnium\.img\3.png)
 
-Use Deploy Now to get started in [Gatsby Cloud](https://gatsbyjs.com/products/cloud):
+### Vercel
 
-[<img src="https://www.gatsbyjs.com/deploynow.png" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/contentful/starter-gatsby-blog)
+- 这里是关联到github repo的过程、具体自动部署的设置和需要设置两个环境变量的流程、放在这里备用记录
 
-If you use Deploy Now, Gatsby Cloud will run the `gatsby-provision` script on your behalf, if you choose, after you Quick Connected to your empty Contentful Space. That script will add the necessary content models and content to support this site.
+![7](D:\Horizon\Projects\Ongoing\Somnium\.img\7.png)
 
+![8](D:\Horizon\Projects\Ongoing\Somnium\.img\8.png)
 
-Or use the [Gatsby CLI](https://www.npmjs.com/package/gatsby-cli).
+![9](D:\Horizon\Projects\Ongoing\Somnium\.img\9.png)
 
-```
-$ gatsby new contentful-starter-blog https://github.com/contentful/starter-gatsby-blog/
-```
+![10](D:\Horizon\Projects\Ongoing\Somnium\.img\10.png)
 
-### Set up of the needed content model and create a configuration file
+- 如何更新网站：当在Contentful上编辑更新好了文章之后、在这个网站的deployment目录下要手动去点击一次redeploy重新部署、然后这里重新部署的时候用cache会更快、只需要1分钟就能重新部署成功、在网站上显示最新写的Blog
 
-This project comes with a Contentful setup command `npm run setup`.
+![11](D:\Horizon\Projects\Ongoing\Somnium\.img\11.png)
 
-This command will ask you for a space ID, and access tokens for the Contentful Management and Delivery API and then import the needed content model into the space you define and write a config file (`./.contentful.json`).
-
-`npm run setup` automates that for you but if you want to do it yourself rename `.contentful.json.sample` to `.contentful.json` and add your configuration in this file.
-
-## Crucial Commands
-
-### `npm run dev`
-
-Run the project locally with live reload in development mode.
-
-### `npm run build`
-
-Run a production build into `./public`. The result is ready to be put on any static hosting you prefer.
-
-### `npm run serve`
-
-Spin up a production-ready server with your blog. Don't forget to build your page beforehand.
-
-## Deployment
-
-See the [official Contentful getting started guide](https://www.contentful.com/developers/docs/tutorials/general/get-started/).
-
-## Contribution
-
-Feel free to open pull requests to fix bugs. If you want to add features, please have a look at the [original version](https://github.com/contentful-userland/gatsby-contentful-starter). It is always open to contributions and pull requests.
-
-You can learn more about how Contentful userland is organized by visiting [our about repository](https://github.com/contentful-userland/about).
+![12](D:\Horizon\Projects\Ongoing\Somnium\.img\12.png)
