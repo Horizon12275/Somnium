@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Somnium",
+    title: "1ntusmens",
     description: "Somnium is a Gatsby site for a fictional web development agency.",
   },
   plugins: [
