@@ -12,36 +12,36 @@
 
 - 首先、点击这里的 apikey 选项、到了下面这个页面、新建一个 apikey、然后保存记录下面的 space id 和 delivery access id
 
-![1](.img\1.png)
+![1](.img/1.png)
 
-![5](.img\5.png)
+![5](.img/5.png)
 
-![6](.img\6.png)
+![6](.img/6.png)
 
 - 如何编辑 Blog：点击这里面的任意一条、然后会跳转到对应的页面、然后编辑完记得在右上角的绿色按钮点 publish（重要）
 
-![2](.img\2.png)
+![2](.img/2.png)
 
-![4](.img\4.png)
+![4](.img/4.png)
 
 - 如何新建 blog、这里点 blogpost 新建一个 blog、其他两个目前没什么用、然后如果要修改首页的页面名称的话、可以修改 Person 这里这一条
 
-![3](.img\3.png)
+![3](.img/3.png)
 
 ### Vercel
 
 - 这里是关联到 github repo 的过程、具体自动部署的设置和需要设置两个环境变量的流程、放在这里备用记录
 
-![7](.img\7.png)
+![7](.img/7.png)
 
-![8](.img\8.png)
+![8](.img/8.png)
 
-![9](.img\9.png)
+![9](.img/9.png)
 
-![10](.img\10.png)
+![10](.img/10.png)
 
 - 如何更新网站：当在 Contentful 上编辑更新好了文章之后、在这个网站的 deployment 目录下要手动去点击一次 redeploy 重新部署、然后这里重新部署的时候用 cache 会更快、只需要 1 分钟就能重新部署成功、在网站上显示最新写的 Blog
 
-![11](.img\11.png)
+![11](.img/11.png)
 
-![12](.img\12.png)
+![12](.img/12.png)
